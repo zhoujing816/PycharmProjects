@@ -1,0 +1,7 @@
+#coding = utf-8
+from selenium import webdriver
+driver = webdriver.Firefox()
+url = "http://www.cnblogs.com/choosewang/articles/2865846.html"
+driver.get(url)
+driver.find_element_by_css_selector(input[value="谷歌搜索"])
+
