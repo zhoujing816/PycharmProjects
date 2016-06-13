@@ -15,7 +15,7 @@ class Login(unittest.TestCase):
         self.accept_next_alert = True
 
     def test_logIn(self):
-        u'''登录'''
+        u'''登录'''   
         browser=self.browser
         browser.get(self.base_url+"/")
         browser.find_element_by_css_selector("#J_headerLogin > a:nth-child(1)").click()
